@@ -39,7 +39,9 @@
         section {
             margin: 20px 0;
         }
-        
+        details p {
+            margin-top: 12px;
+        }
     </style>
 </head>
 <body>
@@ -59,27 +61,67 @@
 
     <section>
         <h2>Professional Summary</h2>
-        <p>Software engineer with over 10 years of experience, leading cloud migrations, modernization efforts, and development projects. Skilled in managing multi-disciplinary teams and complex projects.</p>
+        <p>
+            Software engineer with over 10 years of experience, leading cloud migrations, modernization efforts, and development projects. Skilled in managing multi-disciplinary teams and complex projects.
+        </p>
     </section>
 
     <section>
         <h2>Experience</h2>
-        <details>
-            <summary>Senior Software Development Engineer, Yahoo (Dec 2022 – Apr 2024)</summary>
-            <p>Led cloud migration initiatives employing a hybrid cloud approach, transitioning large-scale systems to AWS and GCP.</p>
-        </details>
-        <details>
-            <summary>Software Development Engineer II, Yahoo (Oct 2019 – Dec 2022)</summary>
-            <p>Managed multiple projects in Big Data Platform division, focusing on data warehousing systems and full stack web applications development.</p>
-        </details>
-        <details>
-            <summary>Software Engineer, Wolfram Research, Inc (Aug 2015 – Oct 2019)</summary>
-            <p>Enhanced NLP capabilities for Wolfram Alpha, contributing to technologies used in virtual assistants like Amazon Alexa and Apple Siri.</p>
-        </details>
-        <details>
-            <summary>Software Engineering Co Op, Wolfram Research, Inc (Aug 2014 – July 2015)</summary>
-            <p>Developed a distributed licensing server and worked on NLP projects.</p>
-        </details>
+        <details open>
+        <summary>Yahoo - Total Duration: 4 years, 6 months</summary>
+        <p>
+            <strong>Senior Software Development Engineer (Dec 2022 – Apr 2024) - 1 year, 4 months</strong>
+            <br>
+            Led large scale data engineering, full stack projects using modern technologies and cloud migration initiatives employing a hybrid cloud approach, transitioning large-scale systems to AWS and GCP.
+            <ul>
+                <li>
+                    Leading multiple projects and teams in Big Data Platform division involving distributed systems and web apps processing petabytes of data and millions of files daily including Data Warehousing systems, grid on-boarding and permissions tracking applications, other full stack web applications and visualization tools. Recently specialized in cloud migration initiatives employing a hybrid cloud approach, successfully transitioning many of our on-premise projects to AWS and GCP.
+                </li>
+                <li>
+                    Develop and internally own Yahoo’s Big Data warehouse system that collects and processes logs of all the Yahoo’s Hadoop grid and related projects. It stores the processed logs on Hive and archives the raw logs.
+                </li>
+                <li>
+                    Leading a team of 3 engineers in developing business intelligence solution to visualize cloud migration efforts across the company helping the organizations make data-driven decisions.
+                </li>
+                <li>
+                    Doppler - Yahoo’s Grid project onboarding and access management for projects using Hadoop, Storm, Presto and HBase. It is a full stack application created using Node.js and Ember.js, MySQL among other technologies. Worked on migrating this project to Golang. With Doppler one can also request membership to Grid Unix Groups, request access to Grid Headless users, and create and edit GDM datasets, http proxy allow list entries.
+                </li>
+                <li>
+                    Maintain and internally own Hue - Hue is a SQL Assistant for querying Databases and Data Warehouses. It is a full stack project created mainly using Python and Django. Worked on integrating Hue with Yahoo’s Big Data infrastructure and authentication systems like Okta SSO.
+                </li>
+                <li>
+                    Developed an dashboards to visualize various aspects of the grid utilization using Node.js, Javascript and Vue.js
+                </li>
+                <li>
+                    Led cloud migration initiatives employing a hybrid cloud approach, transitioning large-scale systems to AWS and GCP.
+                </li>
+                <li>
+                    Skills involved: Java, Golang, Javascript, MySql, Looker, AWS, GCP, SQLite, Airflow, Jenkins, Screwdriver, APM, CICD, JUnit, Shell, Bash, AWK, Python, Django, VueJS, EmberJS, CSS, Hive, Hue, Jupyter, Linux, Unix, MacOS, ETLs, REST APIs
+                </li>
+            </ul>
+        </p>
+        <hr>
+        <p>
+            <strong>Software Development Engineer II (Oct 2019 – Dec 2022) - 3 years, 3 months</strong>
+            <br>
+            Managed multiple projects in the Big Data Platform division, focusing on data warehousing systems and full stack web applications development. Successfully integrated advanced analytics tools which enhanced data-driven decision-making processes.
+        </p>
+    </details>
+    <details open>
+        <summary>Wolfram Research, Inc - Total Duration: 5 years</summary>
+        <p>
+            <strong>Software Engineer (Aug 2015 – Oct 2019) - 4 years, 2 months</strong>
+            <br>
+            Enhanced NLP capabilities for Wolfram Alpha, contributing to technologies used in virtual assistants like Amazon Alexa and Apple Siri. Developed several key components that led to a 40% improvement in query response times.
+        </p>
+        <hr>
+        <p>
+            <strong>Software Engineering Intern (Aug 2014 – July 2015) - 1 year</strong>
+            <br>
+            Developed a high-performance distributed licensing server and worked on NLP projects that helped streamline the product activation process, significantly reducing server load and improving user experience.
+        </p>
+    </details>
     </section>
 
     <section>
